@@ -3,7 +3,7 @@ using UnityEngine;
 public class DialogueNPC : MonoBehaviour
 {
     public DialogueDataSO myDialogue;
-    public DialogueManager dialogueManager;
+    private DialogueManager dialogueManager;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
